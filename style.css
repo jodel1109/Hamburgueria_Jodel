@@ -1,0 +1,204 @@
+body{
+    background-color: #a50000;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #d97904;
+    padding: 20px;
+}
+
+nav{
+    position: absolute;
+    right: 50px;
+    top: 115px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: inline;
+    margin: 0 0 0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#primeira-parte{
+    background-image: radial-gradient(circle,#bf2604,#571c1c);
+    height: 900px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+   
+}
+
+#primeira-parte p{
+    margin: 0;
+    position: relative;
+    top: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+#transicao-1{
+    position: absolute;
+    left: 0;
+    top: 900px;
+    object-fit: cover;
+    display: inline;
+}
+
+#segunda-parte{
+    background-color: white;
+    height: 600px;
+}
+
+#segunda-parte p{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 30%;
+    font-size: 35px;
+    position: relative;
+    top: 60px;
+    left: 53px;
+   
+}
+
+#segunda-parte h1{
+    margin: 0;
+    color: #f4a23d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    top: 103px;
+    right: -45px;
+    display: inline-block;
+}
+
+#mao{
+    position: absolute;
+    right: 0;
+    top: 660px;
+    width: 800px;
+}
+
+footer{
+    background-color: rgb(43, 43, 43);
+    padding: 80px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.produtos h2{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos li:hover {
+    border-color: rgb(203, 0, 0);
+}
+
+.produtos li:active {
+    border-color: rgb(255, 183, 0);
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos li{
+    display: inline-block;    
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 4px solid rgb(244, 204, 84);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.descricao{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+#bg{
+    background-color: #555555;
+
+}
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+fieldset{
+    border: 0;
+}
+
+#footer-pst{
+    position: relative;
+    top: 54px;
+}
+
+#mn{
+    color: aliceblue;
+}
